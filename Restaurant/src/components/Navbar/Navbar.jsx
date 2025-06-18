@@ -48,13 +48,13 @@ const Navbar = () => {
             onClick={() => setToggle(false)}
           />
           <ul className="flex flex-col items-center gap-8 text-2xl font-serif text-[#DCCA87]">
-            <li onClick={() => setToggle(false)}><a href="#home">Home</a></li>
-            <li onClick={() => setToggle(false)}><a href="#about">About</a></li>
-            <li onClick={() => setToggle(false)}><a href="#menu">Menu</a></li>
-            <li onClick={() => setToggle(false)}><a href="#awards">Awards</a></li>
-            <li onClick={() => setToggle(false)}><a href="#contact">Contact</a></li>
-            <li onClick={() => setToggle(false)}><a href="#login">Log In / Register</a></li>
-            <li onClick={() => setToggle(false)}><a href="/">Book Table</a></li>
+            <li className="border-b border-transparent hover:border-[#DCCA87] transition-all duration-200" onClick={() => setToggle(false)}><a href="#home">Home</a></li>
+            <li className="border-b border-transparent hover:border-[#DCCA87] transition-all duration-200" onClick={() => setToggle(false)}><a href="#about">About</a></li>
+            <li className="border-b border-transparent hover:border-[#DCCA87] transition-all duration-200" onClick={() => setToggle(false)}><a href="#menu">Menu</a></li>
+            <li className="border-b border-transparent hover:border-[#DCCA87] transition-all duration-200" onClick={() => setToggle(false)}><a href="#awards">Awards</a></li>
+            <li className="border-b border-transparent hover:border-[#DCCA87] transition-all duration-200" onClick={() => setToggle(false)}><a href="#contact">Contact</a></li>
+            <li className="border-b border-transparent hover:border-[#DCCA87] transition-all duration-200" onClick={() => setToggle(false)}><a href="#login">Log In / Register</a></li>
+            <li className="border-b border-transparent hover:border-[#DCCA87] transition-all duration-200" onClick={() => setToggle(false)}><a href="/">Book Table</a></li>
           </ul>
         </div>
       )}

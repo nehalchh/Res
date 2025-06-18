@@ -5,6 +5,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Timeline";
+    src: url("../../../Timeline.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .heading-sub{
     font-family: "Tempting", cursive;
+}
+#heading-h1, #heading-h11{
+    font-family: "Timeline", cursive;
 }

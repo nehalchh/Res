@@ -10,8 +10,8 @@ const Navbar = () => {
     <nav style={{padding: "1rem"}} className="w-full bg-[#0c0c0c] flex justify-between items-center px-4 py-3 md:px-8">
       {/* Logo */}
       <img
-        style={{paddingLeft: "3rem"}}
-        className="w-[180px] md:w-[220px] lg:w-[240px] h-auto"
+        style={{paddingLeft: "2rem"}}
+        className="w-[180px] md:w-[220px] lg:w-[260px] h-auto"
         src={images.gericht}
         alt="logo"
       />
@@ -26,7 +26,7 @@ const Navbar = () => {
       </ul>
 
       {/* Desktop CTA Buttons */}
-      <div style={{paddingRight: "3rem"}} className="hidden lg:flex items-center text-[16px] lg:text-[18px] text-amber-50 font-sans gap-5">
+      <div style={{paddingRight: "2rem"}} className="hidden lg:flex items-center text-[16px] lg:text-[18px] text-amber-50 font-sans gap-5">
         <a className="border-b border-transparent hover:border-[#DCCA87] transition-all duration-200" href="#login">Log In / Register</a>
         <div className="bg-[#DCCA87] w-[1px] h-[25px]"></div>
         <a className="border-b border-transparent hover:border-[#DCCA87] transition-all duration-200" href="/">Book Table</a>

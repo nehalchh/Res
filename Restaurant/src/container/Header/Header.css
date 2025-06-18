@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Tempting";
+    src: url("../../../Tempting.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.heading-sub{
+    font-family: "Tempting", cursive;
+}

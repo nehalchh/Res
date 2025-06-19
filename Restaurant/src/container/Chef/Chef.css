@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Tempting";
+    src: url("../../../Tempting.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Timeline";
+    src: url("../../../Timeline.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Romania";
+    src: url("../../../Romania.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hh2{
+    font-family: "Romania", cursive;
+}
+
+.subh1{
+    font-family: "Tempting", cursive;
+}
+.hh1{
+    font-family: "Timeline", cursive;
+}

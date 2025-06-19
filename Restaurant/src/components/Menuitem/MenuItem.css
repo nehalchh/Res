@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Romania";
+    src: url("../../../Romania.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.heading1{
+    font-family: "Tempting", cursive;
+}

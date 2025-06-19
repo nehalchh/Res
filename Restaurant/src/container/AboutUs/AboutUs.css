@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Timeline";
+    src: url("../../../Timeline.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#abt, #hist{
+    font-family: "Timeline", cursive;
+}

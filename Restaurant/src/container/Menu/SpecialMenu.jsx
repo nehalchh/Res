@@ -43,7 +43,7 @@ const SpecialMenu = () => {
 
       {/* View More Button */}
       <div className="flex justify-center items-center mt-12">
-        <button className="bg-[#eae2c6] text-black rounded-md px-6 py-2 border border-[#DCCA87] font-serif hover:bg-[#dcca87] transition">
+        <button className="bg-[#eae2c6] text-black rounded-md px-6 py-2 border border-[#DCCA87] font-serif hover:bg-[#dcca87] transition cursor-pointer">
           View More
         </button>
       </div>

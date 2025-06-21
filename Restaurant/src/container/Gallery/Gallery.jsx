@@ -33,7 +33,7 @@ const Gallery = () => {
     </div>
 
     <div>
-      <div ref={scrollRef}>
+      <div ref={scrollRef} className='flex'>
         {imgs.map((items) => (
           <div>
             <img src={items} alt="Gallery images" />
